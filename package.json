@@ -1,0 +1,30 @@
+{
+  "name": "LecoWeather-Rocky",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.2"
+  },
+  "pebble": {
+    "displayName": "LecoWeather Rocky",
+    "uuid": "5f2713e1-bbf6-4a6b-93de-a9106940aaa9",
+    "sdkVersion": "3",
+    "projectType": "rocky",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "capabilities": [
+      "location"
+    ]
+  }
+}

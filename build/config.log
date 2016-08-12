@@ -1,0 +1,47 @@
+# project  configured on Fri Aug 12 02:00:57 2016 by
+# waf 1.7.11 (abi 98, python 2070af0 on darwin)
+# using /Users/orviwan/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/waf configure
+#
+----------------------------------------
+Setting top to
+/Users/orviwan/Desktop/rocky/LecoWeather-Rocky
+----------------------------------------
+Setting out to
+/Users/orviwan/Desktop/rocky/LecoWeather-Rocky/build
+----------------------------------------
+Checking for program node,nodejs
+/usr/local/bin/node
+find program=['node', 'nodejs'] paths=['/usr/local/Cellar/pebble-toolchain/2.0/arm-cs-tools/bin', '/Users/orviwan/.rvm/gems/ruby-2.2.4/bin', '/Users/orviwan/.rvm/gems/ruby-2.2.4@global/bin', '/Users/orviwan/.rvm/rubies/ruby-2.2.4/bin', '/Users/orviwan/bin', '/Users/orviwan/pebble/qemu-d/build/arm-softmmu', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/opt/X11/bin', '/usr/local/MacGPG2/bin', '/Users/orviwan/Library/Android/sdk/tools', '/Users/orviwan/Library/Android/sdk/platform-tools', '/Users/orviwan/.rvm/bin', '/Users/orviwan/.rvm/bin', '/Users/orviwan/pebble/qemu-dev/build/arm-softmmu'] var='NODE' -> '/usr/local/bin/node'
+----------------------------------------
+Found Pebble SDK for diorite in:
+/Users/orviwan/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/diorite
+----------------------------------------
+Checking for program gcc,cc
+arm-none-eabi-gcc
+find program=['gcc', 'cc'] paths='' var='CC' -> 'arm-none-eabi-gcc'
+----------------------------------------
+Checking for program ar
+arm-none-eabi-ar
+find program=['ar'] paths='' var='AR' -> 'arm-none-eabi-ar'
+----------------------------------------
+Found Pebble SDK for chalk in:
+/Users/orviwan/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/chalk
+----------------------------------------
+Checking for program gcc,cc
+arm-none-eabi-gcc
+find program=['gcc', 'cc'] paths='' var='CC' -> 'arm-none-eabi-gcc'
+----------------------------------------
+Checking for program ar
+arm-none-eabi-ar
+find program=['ar'] paths='' var='AR' -> 'arm-none-eabi-ar'
+----------------------------------------
+Found Pebble SDK for basalt in:
+/Users/orviwan/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/basalt
+----------------------------------------
+Checking for program gcc,cc
+arm-none-eabi-gcc
+find program=['gcc', 'cc'] paths='' var='CC' -> 'arm-none-eabi-gcc'
+----------------------------------------
+Checking for program ar
+arm-none-eabi-ar
+find program=['ar'] paths='' var='AR' -> 'arm-none-eabi-ar'
