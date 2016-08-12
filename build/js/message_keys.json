@@ -1,7 +1,0 @@
-{
-    "CHANNEL_READY": 1,
-    "CHUNK_SIZE_BYTES": 2,
-    "CURRENT_CHUNK": 4,
-    "DATA": 5,
-    "TOTAL_CHUNKS": 3
-}
