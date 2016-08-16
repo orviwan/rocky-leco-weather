@@ -37,7 +37,7 @@ rocky.on('draw', function(drawEvent) {
   }
 
   // WEATHER
-  if (weather!==null) {
+  if (weather) {
     ctx.fillStyle = 'white';
     var weatherText = weather.city.substr(0, 10) + '\n' + weather.temp + 
                         'c - ' + weather.condition;

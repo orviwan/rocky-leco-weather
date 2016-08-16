@@ -1,8 +1,6 @@
-var rocky = require('rocky');
+var myAPIKey = '1234567890';
 
-var myAPIKey = '9858eb71a058d377abcd05f64763b42b';
-
-rocky.on('message', function(event) {
+Pebble.on('message', function(event) {
   if(event.data.command === 'weather') {
     getWeather();
   }
@@ -29,7 +27,7 @@ function fetchWeather(latitude, longitude) {
           'condition': response.weather[0].description,
           'city': response.name
         };
-        rocky.postMessage(data);
+        Pebble.postMessage(data);
 
       } else {
         console.log('Error');
@@ -53,7 +51,7 @@ function locationError(err) {
     'condition': 'Error',
     'city': 'Unknown'
   };
-  rocky.postMessage(data);
+  Pebble.postMessage(data);
 }
 
 var locationOptions = {
